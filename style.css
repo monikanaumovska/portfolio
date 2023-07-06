@@ -1,0 +1,398 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'OpenSymbol' , sans-serif;
+    box-sizing: border-box;
+}
+body{
+    height: 800px;
+    flex-shrink: 0;
+}
+#home{
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+    background: white;
+}
+header{
+    background: #666666;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width:100%;
+    flex-direction: row;
+    border-style: dashed;
+    justify-content: space-between;
+    height: 150px;
+    padding-top: 50px;
+    float: left;
+}
+
+
+.logo{
+    text-decoration: none;
+    color: deeppink;
+    font-size: 80px;
+    font-weight: bolder;
+    letter-spacing: 10px;
+    transition: 0.5s;
+    padding-left: 300px;
+    float: left;
+    padding-right: 1800px;
+}
+header ul{
+    display: inline;
+}
+#del{
+    color: gray;
+}
+#home ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-right: 200px;
+    justify-items: center;
+}
+#home ul li a{
+    text-decoration: none;
+    color: black;
+    font-style: revert;
+    font-size: 50px;
+    transition: 0.5s;
+}
+.content{
+    padding-top: 800px;
+    padding-left: 300px;
+    font-size: 50px;
+    display: inline-block;
+}
+.content h3{
+    color: #919090;
+    font-weight: 200;
+    font-size: 2em;
+    transition: 0.5s;
+}
+.content h2{
+    font-size: 3.0em;
+    color: #2f2e2e;
+    transition: 0.5s;
+    font-weight: lighter;
+    font-style: italic;
+}
+.content h2 span{
+    color: deeppink;
+}
+.content p{
+    font-size:40px;
+    width: 2400px;
+    color: #666;
+    margin: 10px 0;
+    transition: 0.5s;
+}
+.buttons{
+    margin-top: 50px;
+}
+button{
+    background: #2196f3;
+    border-style: none;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    padding: 35px 45px;
+    border-radius: 10px;
+    font-size: 1.25em;
+    letter-spacing: 0.05em;
+    margin-right: 20px;
+}
+.info {
+    margin-top:50px;
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    color: gray;
+}
+.info h4{
+    color: black;
+    margin-bottom: -40px;
+}
+.chat{
+    background: transparent;
+    color: #333;
+
+}
+.buttons ion-icon{
+    position: relative;
+    color: deeppink;
+    font-size: 80px ;
+    right: 20px;
+    top: 20px;
+}
+.icons{
+    padding-top:500px;
+    padding-left: 300px;
+    width: 1000px;
+    height: 300px;
+    font-size: 60px;
+}
+.icons ion-icon{
+    font-size: 100px;
+}
+
+.slika1{
+    position: absolute;
+    height: 1500px;
+    right: 250px;
+}
+.slika2{
+    position: absolute;
+    margin-top: 200px;
+    width: 1200px;
+
+}
+header ul li{
+    padding: 20px;
+}
+#about{
+
+    margin-top: 150px;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+    transition: 0.5s;
+    background-color: #ffffff;
+
+}
+.naslov ,  #motivation .title{
+    padding-left: 1000px;
+    font-size: 90px;
+    text-align: center;
+    background: #919191;
+    color: black;
+}
+.title , #motivation h2 ,#hobby h2 {
+    color: deeppink;
+    font-style: italic;
+}
+.section-container{
+    display: flex;
+}
+.section-pic-container{
+    display: flex;
+    flex-direction: row;
+    margin-left: 400px;
+}
+.slika3{
+    margin-top: 100px;
+    border-style: solid;
+    border-color: white;
+    height: 1600px;
+    width: 1200px;
+    margin-left: -100px;
+}
+.about-details{
+    display: flex;
+    flex-direction: row;
+    width: 1300px;
+}
+.flex{
+    display: flex;
+}
+.prvdiv{
+    font-size: 20px;
+    width: 1100px;
+    border: solid;
+    height: 600px;
+    margin-right: 50px;
+    margin-left: 300px;
+    padding: 60px;
+    border-radius: 30px;
+    margin-top: 400px;
+    background-color: #ffffff;
+}
+.prvdiv h3 , .vtordiv h3{
+    font-size: 70px;
+
+}
+.vtordiv{
+    background-color: white;
+    margin-top: 600px;
+    border-radius: 30px;
+    margin-left: 50px;
+    padding: 60px;
+    width: 1100px;
+    border-style: solid;
+    height: 600px;
+}
+.vtordiv ul , .prvdiv ul{
+    padding-left: 50px;
+}
+.citat{
+    display: block;
+    width: 2000px;
+    font-style: italic;
+    color: #000000;
+    font-size: 60px;
+    margin-left: 2000px;
+    margin-top: -300px;
+    margin-bottom: 400px;
+}
+.flex ul li{
+    font-weight: lighter;
+    font-size: 40px;
+}
+#experience , #motivation{
+    height: 2500px;
+    background-color: #424242;
+    padding: 100px;
+    background: url("images/int.jpg")no-repeat;
+    background-size: 5000px 3000px;
+}
+.title-experience{
+    padding-left: 1000px;
+    font-size: 90px;
+    text-align: center;
+    background: #989898;
+    color: black;
+}
+.title-experience h2 , #my_projects .title h2{
+    color: deeppink;
+    font-style: italic;
+}
+.title-experience h3 , #my_projects .title h3{
+    font-weight: lighter;
+}
+
+.nastani{
+    margin-left: 2000px;
+    margin-top: 300px;
+    color: white;
+    border-style: solid;
+    border-color: deeppink;
+    background: #3a3939;
+    width: 1500px;
+    padding-left: 100px;
+    text-align: start;
+    font-size: 60px;
+    border-radius: 50px;
+
+}
+.nastani ul li{
+    list-style-type: -moz-kannada;
+}
+#my_projects .title , #hobby .title{
+    padding-left: 1000px;
+    font-size: 90px;
+    text-align: center;
+    background: #cccccc;
+    color: black;
+}
+
+.div{
+    display: inline-block;
+}
+.title{
+    margin:100px;
+}
+#my_projects{
+    text-align: center;
+}
+.firstp{
+    border-style: dashed;
+    border-radius: 40px;
+    padding: 50px;
+    text-align: justify;
+    width: 1700px;
+    font-size: 50px;
+    border-color: lightpink;
+    margin-right: 50px;
+    margin-top: -200px;
+}
+.second {
+    width: 1700px;
+    border-color: lightpink;
+    border-style: dashed;
+    font-size: 50px;
+    display: inline-block;
+    padding: 60px;
+    text-align: justify;
+    border-radius: 40px;
+}
+#my_projects img{
+    width: 600px;
+    height: 600px;
+    border-radius: 600px;
+    margin-bottom: 100px;
+}
+.kolona1 , .kolona2 , .kolona3{
+    width: 800px;
+    display: inline-block;
+    margin: 50px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+#hobby img{
+    width: 900px;
+    height: 500px;
+}
+
+.celosen{
+    margin-left: 1200px;
+    margin-bottom: 400px;
+}
+#motivation blockquote{
+    width: 2500px;
+    border-style: dashed;
+    border-color: lightpink;
+    font-size: 60px;
+    margin-left: 1200px;
+}
+#motivation img{
+    margin-top: -300px;
+    height: 2200px;
+    margin-left: 1400px;
+}
+.quote{
+    display: inline-block;
+    margin-bottom: 200px;
+}
+#hobby h3, #motivation h3{
+    font-weight: lighter;
+}
+.prvdiv:hover , .vtordiv:hover{
+    background: lightpink;
+    color: white;
+    transition: 0.8s;
+}
+.nastani:hover{
+    transition: 0.5s;
+    background: #fadebe;
+    border-color: white;
+}
+.naslov h1{
+    margin: 0px;
+}
+.prvdiv ul , .vtordiv ul{
+    margin-top: 50px;
+}
+#motivation{
+    height: 2500px;
+    background-color: #424242;
+    padding: 100px;
+    background: url("images/nb.png")no-repeat;
+    background-size: 5000px 3000px;
+}
+#motivation .last{
+    float: left;
+}
+#motivation blockquote{
+    margin: 0px;
+    display: inline-block;
+    width: 1500px;
+    margin-left: 200px;
+}
+#motivation.last{
+    margin-left: 0px;
+}
